@@ -1,13 +1,5 @@
-# important methods
-## others
-- 四舍五入
-```C
-double x=1.34;
-int a=(int)(x+0.5);//加0.5后类型转化
-```
-
-## 排序sort
-### inserting sort
+# 排序sort
+## inserting sort
 - 基础代码
   - 递归写法 *从大到小*
    ```c
@@ -52,8 +44,8 @@ int a=(int)(x+0.5);//加0.5后类型转化
   ```
 
 - 时间效率为O(n^2)  
-### hash sort 哈希排序
-### selection sort 选择排序
+## hash sort 哈希排序
+## selection sort 选择排序
 - 每次找到最大的，放在最后一位
 
 ```c
@@ -72,7 +64,7 @@ for(int j=1;j<len;j++){
 
 - 时间效率为O（n^2）
 
-### 冒泡排序
+## 冒泡排序
 - 基础代码
 
   ```C
@@ -108,7 +100,7 @@ for(int j=1;j<len;j++){
   ```
   
 - 效率为O(n^2)
-### merge sort 归并搜索
+## merge sort 归并搜索
 - 基础函数merge，将两个数组排好序发在剩下的数组里
 
 ```C
@@ -189,7 +181,7 @@ int main(){
 
 - 时间复杂度为O(n*logn)
 
-### quick sort快排
+## quick sort快排
 - **partition**
      - 确定一个哨兵 pivot
      - 使左边的都比pivot小，右边都比pivot大
